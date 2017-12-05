@@ -22,4 +22,8 @@ This plugin adds 1 button to [TinyMCE4](http://tinymce.moxiecode.com/) to clear 
    2. Add  ```toolbarN: .... clear ```
    
 ## Caution
+<<<<<<< HEAD
 Not compatible with translation. Only English
+=======
+Not compatible with translation. Only English
+>>>>>>> origin/master
