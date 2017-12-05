@@ -1,3 +1,14 @@
+=== Modified  ===
+
+ Contributors :takashi Uchiyama (http://cmsimple-jp.org )
+
+ Non Use  lang/ :  CommentOut "tinymce.PluginManager.requireLangPack('clear');"
+
+ your init code
+  Add 
+   plugins: ... clear
+   toolbarN: ... clear
+
 === Clear Floats Button ===
 Contributors: graffino, zeno.popovici, miguelibero
 Tags: wysiwyg, formatting, tinymce, edit, float, clear, editor

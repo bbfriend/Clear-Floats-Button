@@ -1,6 +1,6 @@
 (function() {
   // Load plugin specific language pack
-  tinymce.PluginManager.requireLangPack('clear');
+//  tinymce.PluginManager.requireLangPack('clear');
 
   tinymce.create('tinymce.plugins.Clear', {
     /**
@@ -13,9 +13,9 @@
      */
     init : function(ed, url) {
 
-      ed.addButton('clearboth', {
+      ed.addButton('clear', {
         title : 'Clear floats (' + ( tinymce.Env.mac ? '\u2303\u2325' : 'Shift+Alt+' ) + 'F' + ')',
-        cmd : 'clearBoth',
+        cmd : 'clear',
         image : url + '/images/clear.svg',
         onPostRender : function() {
           var _this = this;
@@ -32,10 +32,10 @@
         ed.execCommand('mceInsertContent', false, html);
       };
 
-      ed.addCommand('clearBoth', function(){ insertClear(); });
+      ed.addCommand('clear', function(){ insertClear(); });
       
       // Add editor shortcut
-      ed.addShortcut('ctrl+alt+f', 'Clear floats', 'clearBoth');
+      ed.addShortcut('ctrl+alt+f', 'Clear floats', 'clear');
 
       // Load plugin specific CSS into editor
       ed.on('Init', function() {
