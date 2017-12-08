@@ -1,6 +1,6 @@
 (function() {
   // Load plugin specific language pack
-//  tinymce.PluginManager.requireLangPack('clear');
+  tinymce.PluginManager.requireLangPack('clear');
 
   tinymce.create('tinymce.plugins.Clear', {
     /**
