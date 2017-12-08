@@ -20,7 +20,13 @@ This plugin adds 1 button to [TinyMCE4](http://tinymce.moxiecode.com/) to clear 
 4. Edit your init code
    1. Add  ```plugins: [.... clear ```
    2. Add  ```toolbarN: .... clear ```
+<<<<<<< HEAD
 ~~## Caution~~
 
 ~~Not compatible with translation. Only English~~
+=======
+   
+## Caution
+Not compatible with translation. Only English
+>>>>>>> origin/master
 
